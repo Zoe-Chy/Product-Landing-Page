@@ -1,0 +1,32 @@
+html {
+  box-sizing: border box;}
+
+#header {
+background-color: #FBFAF8;
+}
+
+#header-img {
+  width: 250;
+  object-fit: cover;
+  padding-top: 100;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#Features {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+} 
+
+@media only screen and (max-width: 600px) {
+  #header {
+    background-color: lightblue;
+  }
+}
