@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Product Landing Page" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">Rare Beauty
+    <nav id="nav-bar">
+        <ul>
+        <li><a class="nav-link" href="#Features">Features</a></li>
+       <li><a class="nav-link" href="#How_to_Use_It">How to Use It</a></li>
+       <li><a class="nav-link" href="#About_the_Brand">About the Brand</a></li>
+       <li><a class="nav-link" href="#Contact_Us">Contact Us</a></li>
+       </ul>
+       </nav>
+    <img id="header-img"  src="https://mindsparklemag.com/wp-content/uploads/2020/09/Rare-Beauty-branding-logo-identity-design-graphic-blog-project-mindsparkle-mag-beautiful-portfolio-ESTABLISHED-Rare-Beauty-monogram.jpg" />
+    </header>
+    <main>
+    <section class="main-section" id="Features"><h1>Features</h1>
+    <img src="https://media.kohlsimg.com/is/image/kohls/Longwearing_TextBottom" />
+    <img src="https://media.kohlsimg.com/is/image/kohls/Vegan_TextBottom" />
+    <img src="https://media.kohlsimg.com/is/image/kohls/Liquid_TextBottom" />
+    <img src="https://media.kohlsimg.com/is/image/kohls/Shimmer_TextBottom" />
+    <img src="https://media.kohlsimg.com/is/image/kohls/Light_Coverage_TextBottom">
+    </section>
+    <section class="main-section" id="How_to_Use_It"><h1>How to Use It</h1><iframe id="video" src="https://youtube.com/embed/M64LvyVuK_M"
+ frameborder="0" allowfullscreen></iframe></section>
+    <section class="main-section" id="About_the_Brand"><h1>About the Brand</h1><p>Created by Selena Gomez, Rare Beauty is challenging unrealistic standards of perfection. In Selena's own words, It's not about being someone else, but being who you are. This is makeup made to feel good in, without hiding what makes you unique. Airy and breathable, our skin-loving formulas go on easy for adjustable coverage and a fresh finish that always looks like you.</p></section>
+    <section class="main-section" id="Contact_Us"><h1>Contact Us</h1>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" name="email" placeholder="Enter your email here"></input>
+      <input type="submit" id="submit"></input>
+      </form>
+    </section>
+      </main>
+      </body>
+  </html>
